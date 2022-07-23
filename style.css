@@ -1,16 +1,39 @@
 header h1 {
-  justify-content: flex-start;
   font-size: 15pt;
-  background-color: aquamarine;
+  background-color: #ccc;
+  opacity: 0.8;
   width: 100%;
-  height: 4rem;
-  margin: 0 auto;
+  height: 50px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 h2 {
   justify-content: center;
   align-items: center;
+}
+
+body {
+  padding-top: 90px;
+  background: linear-gradient(-45deg, #f1fbfe, #a8fee9, #c0c0f4, #89affa) fixed;
+  background-size: 400% 400%;
+  animation: gradient 9s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
