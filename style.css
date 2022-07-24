@@ -18,6 +18,10 @@ h2 {
   align-items: center;
 }
 
+img {
+  opacity: 1;
+}
+
 body {
   padding-top: 90px;
   background: linear-gradient(-45deg, #f1fbfe, #a8fee9, #c0c0f4, #89affa) fixed;
@@ -36,4 +40,12 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+div.Aboutme {
+  display: table-cell;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: flex-end;
 }
