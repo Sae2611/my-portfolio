@@ -10,8 +10,9 @@ body {
   font-family: "Times New Roman";
   }
 
-.img {
-    max-width: 100%;
+#img {
+    width: 80px;
+    height: 60px;
   } 
   
 .a {
@@ -25,17 +26,18 @@ body {
 }
 
 .logo {
-  width: 100px;
-  line-height: 1px;
-  margin-right: 60px;
+  width: 80px;
+  line-height: 3px;
+  padding: 0 50px;
+  margin-top: 10px;
 }
 .logo a {
   display: block;
 }
 
 .wrapper {
+  display:  inline-block;
   width: 100%;
-  max-width: 1032px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -60,30 +62,31 @@ body {
 }
 
 #header {
-  width: 80px;
-  display: flex;
+  width:100%;
+  display: inline;
   justify-content: space-between;
   position: fixed;
-  align-items: center;background-color: #ccc;
+  align-items: center;
+  background-color: #f0f0f0;
 
 }
 
 ul.list {
+  height: 50px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style: none;
+  padding-left:  35px;
+  margin: 0 auto;
+  margin-bottom: 10px;
   }
 
-  li {
-      padding: 0 10px;
+li {
+      padding: 10 10px;
       margin-top:30px;
+      padding: 0 16px;
+      margin-left: 0 auto;
     }
-
-
-#main {
-  padding-top: 80px;
-  margin-bottom: 120px;
-}
 
 #mainvisual img {
   width: 100%;
@@ -92,7 +95,7 @@ ul.list {
 }
 
 #product {
-  max-width: 1240px;
+  width: 100%;
   padding: 100px 16px 50px 16px;
   margin: -50px auto 10px auto;
 }
