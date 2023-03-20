@@ -9,38 +9,55 @@
     <title>My Portfolio</title>
   </head>
   <body>
-
-    <header>
-      <h1>Welcome to My page!</h1>
-      <div class="message">
-        
+    <header id="header">
+      <div id="inner wrapper">
+        <h1 class="logo">  
+          <a href="index.html"><img src="logo.png" alt="Sae Muramatu"></a>
+        </h1>
+        <nav>
+          <ul class="list">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#product">PRODUCT</a></li>
+          </ul>
+         </nav>
       </div>
     </header>
-
-      <div class="name">
-        <h2>Sae Muramatu</h2>
+    <!-- end of header -->
+    
+    <main>
+      <div id="mainvisual">
+        <img src="message.png" alt="">
+      </div>
+    
+    <section id="product">
+      <h2 class="sec-title">PRODUCT</h2>
+      <div class="grid">
+        <div class="item">
+          <img class="fadein" src="calender-app.png" alt="">
+          <div class="item-content">
+            <p class="item-cat">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
       </div>
 
-      <div class="pictures">
-        <img src="sea.jpg" alt="海" width="2000" height="800"/>
-
-      <div class="Aboutme">
-          <!-- <div class="block"> -->
-      <b>about me</b>
-        <table id="informaton">
-           <tr><td>
-           <br>BirthDay:2001/11/26</br>
-           <br>BirthPlace:Iwate</br>
-           <br>Favotite burger:Bekon Retasu Burger + tomato!!</br>
-          </tr></td>
-          </table>
-        
-          <div class="hobby">
-            <b>Hobby</b>
-              <br>ゲーム</br>
-              <br>ドライブ</br>
-            </p>
+      <div class="item">
+        <img class="fadein" src="UIUX.png" alt="">
+        <div class="item-content">
+          <p class="item-cat">category</p>
+          <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p class="item-date">XXXX.XX.XX</p>
+        </div>
       </div>
+
+    </section>
+
+
+    </main>
+
+      <script src="jquery-3.6.4.min.js"></script>
       <script src="main.js"></script>
     </p>
   </body>
